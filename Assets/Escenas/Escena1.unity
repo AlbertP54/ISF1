@@ -123,13 +123,17 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &2124149119875920943
+--- !u!1001 &187261278
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 698613590883275157, guid: 5ef5519ddc7ac3e4483b8a6b8383b36e, type: 3}
+      propertyPath: m_SortingOrder
+      value: 201
+      objectReference: {fileID: 0}
     - target: {fileID: 2124149120368602235, guid: 5ef5519ddc7ac3e4483b8a6b8383b36e, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -177,6 +181,30 @@ PrefabInstance:
     - target: {fileID: 2124149120368602238, guid: 5ef5519ddc7ac3e4483b8a6b8383b36e, type: 3}
       propertyPath: m_Name
       value: ParallaxCamera
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177124076200822103, guid: 5ef5519ddc7ac3e4483b8a6b8383b36e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.2141838
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177124076200822103, guid: 5ef5519ddc7ac3e4483b8a6b8383b36e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.0232885
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880785936926852686, guid: 5ef5519ddc7ac3e4483b8a6b8383b36e, type: 3}
+      propertyPath: m_SortingOrder
+      value: 202
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720924942184423397, guid: 5ef5519ddc7ac3e4483b8a6b8383b36e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720924942184423397, guid: 5ef5519ddc7ac3e4483b8a6b8383b36e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 8550195288290811132, guid: 5ef5519ddc7ac3e4483b8a6b8383b36e, type: 3}
+      propertyPath: m_SortingOrder
+      value: 201
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ef5519ddc7ac3e4483b8a6b8383b36e, type: 3}
