@@ -123,64 +123,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &2124149119875920943
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2124149120368602235, guid: 5ef5519ddc7ac3e4483b8a6b8383b36e, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2124149120368602235, guid: 5ef5519ddc7ac3e4483b8a6b8383b36e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2124149120368602235, guid: 5ef5519ddc7ac3e4483b8a6b8383b36e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2000
-      objectReference: {fileID: 0}
-    - target: {fileID: 2124149120368602235, guid: 5ef5519ddc7ac3e4483b8a6b8383b36e, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2124149120368602235, guid: 5ef5519ddc7ac3e4483b8a6b8383b36e, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2124149120368602235, guid: 5ef5519ddc7ac3e4483b8a6b8383b36e, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2124149120368602235, guid: 5ef5519ddc7ac3e4483b8a6b8383b36e, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2124149120368602235, guid: 5ef5519ddc7ac3e4483b8a6b8383b36e, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2124149120368602235, guid: 5ef5519ddc7ac3e4483b8a6b8383b36e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2124149120368602235, guid: 5ef5519ddc7ac3e4483b8a6b8383b36e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2124149120368602235, guid: 5ef5519ddc7ac3e4483b8a6b8383b36e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2124149120368602238, guid: 5ef5519ddc7ac3e4483b8a6b8383b36e, type: 3}
-      propertyPath: m_Name
-      value: ParallaxCamera
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 5ef5519ddc7ac3e4483b8a6b8383b36e, type: 3}
---- !u!1001 &3653299390146612952
+--- !u!1001 &256276754
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -237,3 +180,60 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: baed32980e6faa543a2dd90d9d3cd45e, type: 3}
+--- !u!1001 &1583625268
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2124149120368602235, guid: 5ef5519ddc7ac3e4483b8a6b8383b36e, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2124149120368602235, guid: 5ef5519ddc7ac3e4483b8a6b8383b36e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2124149120368602235, guid: 5ef5519ddc7ac3e4483b8a6b8383b36e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2000
+      objectReference: {fileID: 0}
+    - target: {fileID: 2124149120368602235, guid: 5ef5519ddc7ac3e4483b8a6b8383b36e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2124149120368602235, guid: 5ef5519ddc7ac3e4483b8a6b8383b36e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2124149120368602235, guid: 5ef5519ddc7ac3e4483b8a6b8383b36e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2124149120368602235, guid: 5ef5519ddc7ac3e4483b8a6b8383b36e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2124149120368602235, guid: 5ef5519ddc7ac3e4483b8a6b8383b36e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2124149120368602235, guid: 5ef5519ddc7ac3e4483b8a6b8383b36e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2124149120368602235, guid: 5ef5519ddc7ac3e4483b8a6b8383b36e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2124149120368602235, guid: 5ef5519ddc7ac3e4483b8a6b8383b36e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2124149120368602238, guid: 5ef5519ddc7ac3e4483b8a6b8383b36e, type: 3}
+      propertyPath: m_Name
+      value: ParallaxCamera
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5ef5519ddc7ac3e4483b8a6b8383b36e, type: 3}
