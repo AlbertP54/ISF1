@@ -1069,6 +1069,18 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5661125716595598107, guid: d223d50c37dac5c48b50732859832fcd, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5661125716595598107, guid: d223d50c37dac5c48b50732859832fcd, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5661125716595598107, guid: d223d50c37dac5c48b50732859832fcd, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7279926972077361372, guid: d223d50c37dac5c48b50732859832fcd, type: 3}
       propertyPath: m_Name
       value: soldier_blue_01_64
