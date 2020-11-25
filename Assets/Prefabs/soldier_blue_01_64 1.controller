@@ -70,7 +70,7 @@ AnimatorStateMachine:
     m_Position: {x: 560, y: -20, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -128952370843594092}
-    m_Position: {x: 820, y: 120, z: 0}
+    m_Position: {x: 830, y: 110, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 6700656420670140707}
     m_Position: {x: 580, y: 220, z: 0}
@@ -95,6 +95,9 @@ AnimatorStateTransition:
   - m_ConditionMode: 4
     m_ConditionEvent: Vhealth
     m_EventTreshold: 30
+  - m_ConditionMode: 2
+    m_ConditionEvent: VShooting
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 5845520880812388469}
   m_Solo: 0
@@ -177,13 +180,13 @@ AnimatorController:
     m_DefaultFloat: 100
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: VShooting
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
