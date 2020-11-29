@@ -638,6 +638,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Edificio8
       objectReference: {fileID: 0}
+    - target: {fileID: 5537297376171399995, guid: 5ef5519ddc7ac3e4483b8a6b8383b36e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5837853147590384074, guid: 5ef5519ddc7ac3e4483b8a6b8383b36e, type: 3}
       propertyPath: m_TagString
       value: Empty
@@ -819,12 +823,20 @@ PrefabInstance:
       value: Empty
       objectReference: {fileID: 0}
     - target: {fileID: 8229136633954967875, guid: 5ef5519ddc7ac3e4483b8a6b8383b36e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8229136633954967875, guid: 5ef5519ddc7ac3e4483b8a6b8383b36e, type: 3}
       propertyPath: m_TagString
       value: Empty
       objectReference: {fileID: 0}
     - target: {fileID: 8308741783083211235, guid: 5ef5519ddc7ac3e4483b8a6b8383b36e, type: 3}
       propertyPath: m_TagString
       value: Empty
+      objectReference: {fileID: 0}
+    - target: {fileID: 8316891739893601023, guid: 5ef5519ddc7ac3e4483b8a6b8383b36e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8480355255148373999, guid: 5ef5519ddc7ac3e4483b8a6b8383b36e, type: 3}
       propertyPath: m_SortingOrder
@@ -841,6 +853,10 @@ PrefabInstance:
     - target: {fileID: 8643656257481497614, guid: 5ef5519ddc7ac3e4483b8a6b8383b36e, type: 3}
       propertyPath: m_TagString
       value: Empty
+      objectReference: {fileID: 0}
+    - target: {fileID: 8895306156032487685, guid: 5ef5519ddc7ac3e4483b8a6b8383b36e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8989479393381580519, guid: 5ef5519ddc7ac3e4483b8a6b8383b36e, type: 3}
       propertyPath: m_TagString
@@ -970,6 +986,37 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &1135322229 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4107718115034563650, guid: 5ef5519ddc7ac3e4483b8a6b8383b36e, type: 3}
+  m_PrefabInstance: {fileID: 187261278}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1135322230
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1135322229}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1001 &1253810328
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1011,15 +1058,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6767765023785961321, guid: c9e6a1f51ad253b48a43404713bc3685, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.3587847
+      value: -4.08
       objectReference: {fileID: 0}
     - target: {fileID: 6767765023785961321, guid: c9e6a1f51ad253b48a43404713bc3685, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.8493369
+      value: 0.94
       objectReference: {fileID: 0}
     - target: {fileID: 6767765023785961321, guid: c9e6a1f51ad253b48a43404713bc3685, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 21.250816
+      value: 21.19
       objectReference: {fileID: 0}
     - target: {fileID: 6767765023785961321, guid: c9e6a1f51ad253b48a43404713bc3685, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1132,6 +1179,27 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!50 &1253810332
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1253810330}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!95 &1326260677
 Animator:
   serializedVersion: 3
